@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/slide1/(.*)",
-      "destination": "/slide1/index.html"
-    },
-    {
-      "source": "/slide2/(.*)",
-      "destination": "/slide2/index.html"
+      "source": "/:slide/:page",
+      "destination": "/:slide/index.html"
     }
   ]
 }
