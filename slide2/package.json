@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build -d --base /slide2 --out ../dist/slide2",
-    "export": "slidev export"
+    "export": "slidev export --with-clicks"
   },
   "dependencies": {
     "@slidev/cli": "^0.22.7",
