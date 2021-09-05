@@ -1,0 +1,17 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "slide*"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "export": "yarn workspaces run export"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.14.1"
+  }
+}
