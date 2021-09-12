@@ -1,26 +1,33 @@
-# 讲演稿
+---
+fonts:
+  sans: 'Robot'
+  serif: 'Robot Slab'
+  mono: 'Fira Code'
+---
+# YARP 初探
 
-测算下！
+A toolkit for developing high-performance HTTP reverse proxy applications.
+
+---
+layout: intro
+---
+
+
+源码：[github.com/microsoft/reverse-proxy](https://github.com/microsoft/reverse-proxy)
+
+官网：[microsoft.github.io/reverse-proxy/](https://microsoft.github.io/reverse-proxy/)
 
 ---
 
-# Page 2
+# 特点 
 
-Directly use code blocks for highlighting
+1. L7 代理
+2. 基于 ASP.NET & .NET (.NET Core 3.1 and .NET 5.0)
+3. Easily customized and tweaked via .NET code 
+4. 多样配置管理（默认实现 appsetting.json 配置）
+6. 复用了现有的 ASP.NET Core 中间件
 
-```csharp {2}
-System.Console.WriteLine("Hello!");
-System.Console.WriteLine("World!");
-```
-
-<uim-rocket class="text-3xl text-orange-400 animate-ping" />
-
----
-
-# Page 3
-
-You can directly use Windi CSS and Vue components to style and enrich your slides.
-
+<!-- <uim-rocket class="text-3xl text-orange-400" /> -->
 
 ---
 layout: two-cols
@@ -50,9 +57,8 @@ This shows on the left
   :enter="{ x: 0 }">
   
 <div>
-This shows on the right
+右边的文字块
 </div>
-
 
 
 ```ts {all|2|1-6|9|all}
