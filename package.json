@@ -8,8 +8,8 @@
   ],
   "private": true,
   "scripts": {
-    "build": "cp ./list.html ./dist/index.html && yarn workspaces run build",
-    "serve": "cp ./list.html ./dist/index.html && serve -c ./vercel.json ./dist"
+    "build": "yarn workspaces run build && cp ./list.html ./dist/index.html",
+    "serve": "serve -c ./vercel.json ./dist && cp ./list.html ./dist/index.html"
   },
   "devDependencies": {
     "playwright-chromium": "^1.14.1",
