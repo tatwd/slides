@@ -1,8 +1,9 @@
 ---
-fonts:
-  sans: 'Robot'
-  serif: 'Robot Slab'
-  mono: 'Fira Code'
+# fonts:
+  # provide: 'none'
+  # sans: 'Robot'
+  # serif: 'Robot Slab'
+  # mono: 'Fira Code'
 ---
 # YARP 初探
 
@@ -12,10 +13,10 @@ A toolkit for developing high-performance HTTP reverse proxy applications.
 layout: intro
 ---
 
-
 源码：[github.com/microsoft/reverse-proxy](https://github.com/microsoft/reverse-proxy)
 
-官网：[microsoft.github.io/reverse-proxy/](https://microsoft.github.io/reverse-proxy/)
+文档：[microsoft.github.io/reverse-proxy/](https://microsoft.github.io/reverse-proxy/)
+
 
 ---
 
