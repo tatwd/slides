@@ -1,15 +1,10 @@
 {
+  "name": "slide1",
   "private": true,
   "scripts": {
-    "dev": "slidev --open",
     "build": "slidev build --base /slide1 --out ../dist/slide1",
-    "export": "slidev export --with-clicks"
+    "dev": "slidev --open",
+    "export": "slidev export"
   },
-  "dependencies": {
-    "@slidev/cli": "^0.22.7",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "^0.21.2"
-  },
-  "name": "slide1",
   "version": "0.1.0"
 }

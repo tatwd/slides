@@ -5,10 +5,6 @@
     "build": "slidev build --base /slide2 --out ../dist/slide2",
     "export": "slidev export --with-clicks"
   },
-  "dependencies": {
-    "@slidev/cli": "^0.22.7",
-    "@slidev/theme-default": "*"
-  },
   "name": "yarp-intro-slide",
   "description": "[WIP] YARP 初探",
   "version": "0.1.0"

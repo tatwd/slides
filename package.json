@@ -4,16 +4,22 @@
   "main": "index.js",
   "license": "MIT",
   "workspaces": [
+    "slide1",
     "slide2",
     "slide3"
   ],
   "private": true,
   "scripts": {
-    "build": "yarn workspaces run build && cp ./list.html ./dist/index.html",
+    "build": "rimraf dist && yarn workspaces run build && cp ./list.html ./dist/index.html",
     "serve": "cp ./list.html ./dist/index.html && serve -c ./vercel.json ./dist"
   },
   "devDependencies": {
     "playwright-chromium": "^1.14.1",
-    "serve": "^12.0.1"
+    "serve": "^12.0.1",
+    "rimraf": "^3.0.2",
+    "@slidev/cli": "^0.31.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-takahashi": "^1.0.0"
   }
 }
