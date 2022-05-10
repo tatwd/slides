@@ -2,14 +2,15 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base /slide1 --out ../dist/slide1",
+    "build": "slidev build --base /slide3 --out ../dist/slide3",
     "export": "slidev export --with-clicks"
   },
   "dependencies": {
     "@slidev/cli": "^0.22.7",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "^0.21.2"
+    "slidev-theme-takahashi": "^1.0.0"
   },
-  "name": "slide1",
+  "name": "takahashi-theme-slide-101",
+  "description": "Takahashi theme slide 101",
   "version": "0.1.0"
 }

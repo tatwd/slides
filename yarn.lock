@@ -163,16 +163,6 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.12"
 
-"@slidev/theme-seriph@*":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@slidev/theme-seriph/-/theme-seriph-0.21.0.tgz#a4716d93bee1694d44d6f1b173a001fdf030e613"
-  integrity sha512-Z0I+vXMc3RVVz6vmmTUKXrSBG2uro1sAmmlLq5CTJURQaN8HoYpv8tucvJBY/NPT95Lc5jmS8a9RZr4kmxnmJQ==
-  dependencies:
-    "@slidev/types" "^0.22.7"
-    codemirror-theme-vars "^0.1.1"
-    prism-theme-vars "^0.2.2"
-    theme-vitesse "^0.1.12"
-
 "@slidev/types@0.22.7", "@slidev/types@^0.22.7":
   version "0.22.7"
   resolved "https://registry.npmjs.org/@slidev/types/-/types-0.22.7.tgz#abe1c81fedd5db1475428832f65253f95722a6d8"
@@ -2412,6 +2402,16 @@ slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
+
+slidev-theme-takahashi@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/slidev-theme-takahashi/-/slidev-theme-takahashi-1.0.0.tgz#01048d6337847899944a40a287afa29f174a27d1"
+  integrity sha512-4RNK8DFXzwberwGN5LVlR/AxhpKKA6+c+78kwPU0+gCM68KcDUw2lCAb6VOLIohXLCp7USm8tAzmU7I6Lhf+ig==
+  dependencies:
+    "@slidev/types" "^0.22.7"
+    codemirror-theme-vars "^0.1.1"
+    prism-theme-vars "^0.2.2"
+    theme-vitesse "^0.1.12"
 
 slugify@^1.3.1:
   version "1.6.0"

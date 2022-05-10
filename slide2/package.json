@@ -9,6 +9,7 @@
     "@slidev/cli": "^0.22.7",
     "@slidev/theme-default": "*"
   },
-  "name": "slide2",
+  "name": "yarp-intro-slide",
+  "description": "[WIP] YARP 初探",
   "version": "0.1.0"
 }

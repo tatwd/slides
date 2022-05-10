@@ -2,7 +2,7 @@ const { join } = require('path');
 // const { readdirSync } = require('fs');
 const { spawnSync } = require('child_process');
 
-const projects = ['slide1', 'slide2'];
+const projects = ['slide1', 'slide2', 'slide3'];
 
 function build(projectName) {
   const contextPath = join(__dirname, projectName);

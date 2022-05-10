@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "workspaces": [
-    "slide*"
+    "slide2",
+    "slide3"
   ],
   "private": true,
   "scripts": {
     "build": "yarn workspaces run build && cp ./list.html ./dist/index.html",
-    "serve": "serve -c ./vercel.json ./dist && cp ./list.html ./dist/index.html"
+    "serve": "cp ./list.html ./dist/index.html && serve -c ./vercel.json ./dist"
   },
   "devDependencies": {
     "playwright-chromium": "^1.14.1",
